@@ -1,0 +1,78 @@
+/********** Base styles reseting browser preset margins and box size**********/
+* {
+  box-sizing: border-box;
+}
+
+/********** Navbar inputs ***********/
+nav {
+  position: fixed;
+  top: 0px;
+}
+
+#header-nav {
+  background-color: lightgrey;
+  border-radius: 0;
+  border: 0;
+  border: solid black 2px;
+  margin-bottom: 0;
+  object-position: fixed;
+}
+
+#navbar {
+  position: fixed;
+}
+
+.navbar-brand {
+  padding-left: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-family: 'Arial';
+  font-size: 1.5em;
+  color: black;
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
+/********** Text inputs ***********/
+
+.text-center {
+  font-family: 'Arial';
+  font-size:22px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 55px;
+}
+
+#text {
+  margin: 10px;
+  background-color: lightgrey;
+  font-family: 'Arial';
+  position: relative;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a{
+  text-align: center;
+  color: black;
+  font-family: 'Arial';
+  font-weight: 100;
+  background-color: lightgrey; 
+}
+
+#nav-list a:hover {
+  background-color: lightyellow;
+}
+
+.navbar-default .navbar-collapse {
+  margin-top: 0px;
+  border: 0px;
+  list-style-type: none;
